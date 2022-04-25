@@ -1,0 +1,7 @@
+replicas: 4
+repo: "gcr.io/heptio-images"
+image: "ks-guestbook-demo"
+tag: "0.2"
+svc_name: "guestbook-ui"
+svc_port: "80"
+svc_targetport: "80"
